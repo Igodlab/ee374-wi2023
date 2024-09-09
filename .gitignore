@@ -1,0 +1,30 @@
+# igonre all .* files except .gitignore
+.*
+!.gitignore
+# !.gitignore-app-scaling
+
+# Rust byproducts
+!.cargo/
+target/
+
+# vim sessions
+# *.vim
+
+# Commit Cargo.lock in prod
+Cargo.lock
+
+# Safe to ignore
+dist/
+__pycache__/
+node_modules/
+npm-debug.log
+report.*.json
+
+*.pdf
+*.parquet
+*.map
+*.zip
+*.gz
+*.tar
+*.tgz
+
